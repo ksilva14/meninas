@@ -1,0 +1,16 @@
+C:\meninasII\app2\bin\Debug\net5.0\app2.exe
+C:\meninasII\app2\bin\Debug\net5.0\app2.deps.json
+C:\meninasII\app2\bin\Debug\net5.0\app2.runtimeconfig.json
+C:\meninasII\app2\bin\Debug\net5.0\app2.runtimeconfig.dev.json
+C:\meninasII\app2\bin\Debug\net5.0\app2.dll
+C:\meninasII\app2\bin\Debug\net5.0\ref\app2.dll
+C:\meninasII\app2\bin\Debug\net5.0\app2.pdb
+C:\meninasII\app2\obj\Debug\net5.0\app2.csprojAssemblyReference.cache
+C:\meninasII\app2\obj\Debug\net5.0\app2.GeneratedMSBuildEditorConfig.editorconfig
+C:\meninasII\app2\obj\Debug\net5.0\app2.AssemblyInfoInputs.cache
+C:\meninasII\app2\obj\Debug\net5.0\app2.AssemblyInfo.cs
+C:\meninasII\app2\obj\Debug\net5.0\app2.csproj.CoreCompileInputs.cache
+C:\meninasII\app2\obj\Debug\net5.0\app2.dll
+C:\meninasII\app2\obj\Debug\net5.0\ref\app2.dll
+C:\meninasII\app2\obj\Debug\net5.0\app2.pdb
+C:\meninasII\app2\obj\Debug\net5.0\app2.genruntimeconfig.cache
