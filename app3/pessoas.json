@@ -1,0 +1,26 @@
+[
+    {
+        "NomeCompleto":"Aline Ferreira da Silva",
+        "DataNascimento":"30/06/1998",
+        "Email":"aline.silva@gmail.com",
+        "Telefone":"(21) 98765-4321"
+    },
+    {
+        "NomeCompleto":"Ricardo Oliveira da Cunha",
+        "DataNascimento":"12/12/1990",
+        "Email":"ricardo.cunha@gmail.com",
+        "Telefone":"(21) 8234-2251"
+    },   
+    {
+        "NomeCompleto":"Débora Nascimento Souza",
+        "DataNascimento":"14/07/1995",
+        "Email":"debora.souza@gmail.com",
+        "Telefone":"(21) 825550063"
+    },
+    {
+        "NomeCompleto":"Mário Jorge Lima dos Santos",
+        "DataNascimento":"20/11/1982",
+        "Email":"mario.santos@gmail.com",
+        "Telefone":"(21) 95587-0022"
+    }
+]
