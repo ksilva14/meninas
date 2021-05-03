@@ -8,7 +8,7 @@ namespace app3
         private string _path;
 
         public PessoaRepository(string directory){
-            _path = Path.Combine(directory, $"pessoa.json");
+            _path = Path.Combine(directory, $"pessoas.json");
         }
         private string ReadText(){
             return File.ReadAllText(_path);
@@ -20,10 +20,11 @@ namespace app3
         //Retorna tudo
         public Pessoa[] Read(){
             string arrayJson = ReadText();
-            return Newtonsoft.Json.JsonConvert.Deserializeobject<Pessoa[]>(arrayJson);
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<Pessoa[]>(arrayJson);
         }
         public void Save(Pessoa[] pessoas){
-            string arrayJson = Newtonsoft.Json.JsonConvert.SerializeObject(arrayJson);
+            string arrayJson = Newtonsoft.Json.JsonConvert.SerializeObject(pessoas);
+            SaveText(arrayJson);
         }
 
     }
