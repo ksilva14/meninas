@@ -25,7 +25,7 @@ namespace app3
             //Console.WriteLine();
             Console.WriteLine("\n## Lista de Pessoas ##");
             foreach (var pessoa in _pessoas){
-                Console.WriteLine($"\n----------------\nNome:{pessoa.NomeCompleto};\nDataNascimento:{pessoa.DataNascimento};\nEmail:{pessoa.Email};\nTelefone:{pessoa.Telefone}");
+                Console.WriteLine($"\n----------------\nNome: {pessoa.NomeCompleto};\nDataNascimento: {pessoa.DataNascimento};\nEmail: {pessoa.Email};\nTelefone: {pessoa.Telefone}");
             }
         }
         public Pessoa BuscarPessoa(string nome){
