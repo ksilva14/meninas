@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Meninas\\app3\\app3.csproj",
+      "projectUniqueName": "C:\\meninas\\app5\\app3.csproj",
       "projectName": "app3",
-      "projectPath": "C:\\Meninas\\app3\\app3.csproj",
+      "projectPath": "C:\\meninas\\app5\\app3.csproj",
       "packagesPath": "C:\\Users\\Karolinne Marques\\.nuget\\packages\\",
-      "outputPath": "C:\\Meninas\\app3\\obj\\",
+      "outputPath": "C:\\meninas\\app5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Karolinne Marques\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,7 +106,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

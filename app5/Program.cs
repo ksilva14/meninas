@@ -16,58 +16,66 @@ namespace app3
             app.CarregarLista();
             app.ImprimirLista();
 
-            Console.WriteLine("Digite o nome da pessoa que deseja buscar: ");
-            string pessoa = Console.ReadLine();
-
-            Pessoa fulano = app.BuscarPessoa(pessoa);
-            if (fulano is null){
-                Console.WriteLine("Pessoa não encontrada");
-            }
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            DateTime dataNascimento = DateTime.Parse(fulano.DataNascimento);
-            dataNascimento = dataNascimento.AddYears(-1);
-            fulano.DataNascimento = dataNascimento.ToString("dd/MM/yyyy");
-
-            app.SalvarLista();
-            app.ImprimirLista();
-
-            Console.WriteLine("\n\n###############################################\n\n");
-
-            Console.WriteLine("Digite o primeiro nome da pessoa para busca: ");
+            Console.Write("\nDigite o primeiro nome da pessoa para busca: ");
             string primeiroNome = Console.ReadLine();
 
-            Pessoa pessoinha = app.BuscarPessoa(primeiroNome);
-            if (pessoinha != null){
-                Console.WriteLine("Pessoa encontrada!");
+            Pessoa fulano = app.BuscarPessoa(primeiroNome);
+
+            if (fulano is null){
+                Console.WriteLine("\nPessoa não encontrada!\n");
             }
+            else {
+                string resposta1;
+                do{
+                    Console.Write("\nDeseja editar o nome? (S/N) ");
+                    resposta1 = Console.ReadLine();
+                    if (resposta1 == "S"){
+                        do {
+                            Console.Write("Digite o nome: ");
+                            fulano.NomeCompleto = Console.ReadLine();
+                        } while (String.IsNullOrWhiteSpace(fulano.NomeCompleto));
+                    }
+                } while (resposta1 != "S" && resposta1 != "N");
 
-            //Mudar o nome
+                string resposta2;
+                do{
+                    Console.Write("\nDeseja editar a data de nascimento? (S/N) ");
+                    resposta2 = Console.ReadLine();
+                    if (resposta2 == "S"){
+                        do {
+                            Console.Write("Digite a data no formato dd/MM/yyyy: ");
+                            fulano.DataNascimento = Console.ReadLine();
+                        } while (String.IsNullOrWhiteSpace(fulano.DataNascimento));
+                    }
+                } while (resposta2 != "S" && resposta2 != "N");
 
-            string resposta1;
-            do {
-                Console.Write("Deseja mudar o nome? (S/N) ");
-                resposta1 = Console.ReadLine();
-                if (resposta1 == "S"){
-                    do {
-                        //Console.WriteLine();
-                        Console.Write("\nDigite o nome: ");
-                        pessoinha.NomeCompleto = Console.ReadLine();
-                    } while (String.IsNullOrWhiteSpace(pessoinha.NomeCompleto));
-                }
-            } while (resposta1 != "S" && resposta1 != "N");
+                string resposta3;
+                do{
+                    Console.Write("\nDeseja editar o email? (S/N) ");
+                    resposta3 = Console.ReadLine();
+                    if (resposta3 == "S"){
+                        do {
+                            Console.Write("Digite o email: ");
+                            fulano.Email = Console.ReadLine();
+                        } while (String.IsNullOrWhiteSpace(fulano.Email));  
+                    }
+                } while (resposta3 != "S" && resposta3 != "N");
 
-            //Envelhecer
-            Console.Write("Deseja envelhecer esta pessoa em um ano? (S/N) ");
-            string resposta2 = Console.ReadLine();
-            if (resposta2 == "S"){
-                var data = DateTime.Parse(pessoinha.DataNascimento);
-                data = data.AddYears(-1);
-                pessoinha.DataNascimento = data.ToString("dd/MM/yyyy");
+                string resposta4;
+                do{
+                    Console.Write("\nDeseja editar o telefone? (S/N) ");
+                    resposta4 = Console.ReadLine();
+                    if (resposta4 == "S"){
+                        do {
+                            Console.Write("Digite o telefone: ");
+                            fulano.Telefone = Console.ReadLine();
+                        } while (String.IsNullOrWhiteSpace(fulano.Email));  
+                    }
+                } while (resposta4 != "S" && resposta4 != "N");
+
+                app.SalvarLista();
+                app.ImprimirLista();
             }
-            
-            app.SalvarLista();
-            app.ImprimirLista();
-
         }
     }
 }

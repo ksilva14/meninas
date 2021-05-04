@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GZhpptEkrd6Fa56p+4UzAH6fnW/JmDNzVU7uRxE0DAuUYYH2N0InyzHOF8GX/t8q04laBzHjuX4hSMnSjV+8OQ==",
+  "dgSpecHash": "XIxhkjrjrtvXvpanUSrsW0+J/n39GT/jqAGDXZQnDXrdRFwXr/JueUl7S19zZ/qAfbaekPT18wSnCxxYh5waBQ==",
   "success": true,
-  "projectFilePath": "C:\\Meninas\\app3\\app3.csproj",
+  "projectFilePath": "C:\\meninas\\app5\\app3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karolinne Marques\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
