@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace app5
+namespace app6
 {
     public class PessoaRepository
     {

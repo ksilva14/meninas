@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace app5
+namespace app6
 {
     class Program
     {
@@ -13,8 +13,51 @@ namespace app5
 
             var app = new MyApp(currentDirectory);
 
-            app.CarregarLista();
-            app.ImprimirLista();
+            
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            Console.WriteLine("O que você deseja fazer?");
+            Console.WriteLine("\n1 - Imprimir lista\n2 - Editar lista\n3 - Adicionar pessoa");
+
+            string opcao;
+            do {
+                opcao = Console.ReadLine();
+            } while (opcao != "1" && opcao != "2" && opcao != "3");
+
+            if (opcao == "1"){
+                app.CarregarLista();
+                app.ImprimirLista();
+            }
+
+            else if (opcao == "2"){
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
             Console.Write("\nDigite o primeiro nome da pessoa para busca: ");
             string primeiroNome = Console.ReadLine();
