@@ -13,8 +13,7 @@ namespace app6
 
             var app = new MyApp(currentDirectory);
 
-            
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
             Console.WriteLine("O que você deseja fazer?");
             Console.WriteLine("\n1 - Imprimir lista\n2 - Editar lista\n3 - Adicionar pessoa");
 
@@ -62,7 +61,7 @@ namespace app6
             Console.Write("\nDigite o primeiro nome da pessoa para busca: ");
             string primeiroNome = Console.ReadLine();
 
-            Pessoa fulano = app.BuscarPessoa(primeiroNome);
+           Pessoa fulano = app.BuscarPessoa(primeiroNome);
 
             if (fulano is null){
                 Console.WriteLine("\nPessoa não encontrada!\n");

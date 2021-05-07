@@ -21,13 +21,6 @@ namespace app6
             Console.WriteLine("\n## Salvar Lista ##");
             _repository.Save(_pessoas);
         }
-        public void ImprimirLista(){
-            //Console.WriteLine();
-            Console.WriteLine("\n## Lista de Pessoas ##");
-            foreach (var pessoa in _pessoas){
-                Console.WriteLine($"\n----------------\nNome: {pessoa.NomeCompleto};\nDataNascimento: {pessoa.DataNascimento};\nEmail: {pessoa.Email};\nTelefone: {pessoa.Telefone}");
-            }
-        }
         public Pessoa BuscarPessoa(string nome){
             //Console.WriteLine();
             Console.WriteLine("\n## Buscar Pessoa ##");
@@ -37,6 +30,26 @@ namespace app6
                 }
             }
             return null;
+        }
+        public void Imprimir(Pessoa[] lista){
+            foreach (var pessoa in lista){
+                Console.WriteLine($"\n----------------\nNome: {pessoa.NomeCompleto};\nDataNascimento: {pessoa.DataNascimento};\nEmail: {pessoa.Email};\nTelefone: {pessoa.Telefone}");
+            }
+        }
+        public void ImprimirLista(){
+            //Console.WriteLine();
+            Console.WriteLine("\n## Lista de Pessoas ##");
+            Imprimir(_pessoas);
+        }
+        public void ImprimirPessoa(string nome){
+            Pessoa procurado = BuscarPessoa(nome);
+            if(procurado is null){
+                Console.WriteLine("Essa pessoa não foi encontrada");
+            }
+            else{
+                Pessoa[] lista = {procurado};
+                Imprimir(lista);
+            }
         }
     }
 }
