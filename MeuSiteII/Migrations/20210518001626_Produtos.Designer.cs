@@ -3,14 +3,16 @@ using System;
 using MeuSiteII.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MeuSiteII.Migrations
 {
     [DbContext(typeof(MeuSiteContext))]
-    partial class MeuSiteContextModelSnapshot : ModelSnapshot
+    [Migration("20210518001626_Produtos")]
+    partial class Produtos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

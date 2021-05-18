@@ -3,14 +3,16 @@ using System;
 using MeuSiteII.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MeuSiteII.Migrations
 {
     [DbContext(typeof(MeuSiteContext))]
-    partial class MeuSiteContextModelSnapshot : ModelSnapshot
+    [Migration("20210517235237_Criar_Profissao")]
+    partial class Criar_Profissao
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -42,32 +44,6 @@ namespace MeuSiteII.Migrations
                     b.ToTable("Pessoas");
                 });
 
-            modelBuilder.Entity("MeuSiteII.Models.Produto", b =>
-                {
-                    b.Property<int>("ProdutoId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Descricao")
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Nome")
-                        .HasColumnType("TEXT");
-
-                    b.Property<decimal>("Preco")
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("QuantidadeEstoque")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("UrlImagem")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("ProdutoId");
-
-                    b.ToTable("Produtos");
-                });
-
             modelBuilder.Entity("MeuSiteII.Models.Profissao", b =>
                 {
                     b.Property<int>("ProfissaoId")
@@ -79,7 +55,7 @@ namespace MeuSiteII.Migrations
 
                     b.HasKey("ProfissaoId");
 
-                    b.ToTable("Profissoes");
+                    b.ToTable("Profissao");
                 });
 #pragma warning restore 612, 618
         }
