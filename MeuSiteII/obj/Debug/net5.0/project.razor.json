@@ -15619,6 +15619,16 @@
   "RootNamespace": "MeuSiteII",
   "Documents": [
     {
+      "FilePath": "c:\\meninas\\MeuSiteII\\Views\\Pessoas\\Delete.cshtml",
+      "TargetPath": "Views\\Pessoas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\meninas\\MeuSiteII\\Views\\Pessoas\\Edit.cshtml",
+      "TargetPath": "Views\\Pessoas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\meninas\\MeuSiteII\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -15634,8 +15644,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\meninas\\MeuSiteII\\Views\\Pessoas\\Details.cshtml",
+      "TargetPath": "Views\\Pessoas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\meninas\\MeuSiteII\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\meninas\\MeuSiteII\\Views\\Pessoas\\Create.cshtml",
+      "TargetPath": "Views\\Pessoas\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
