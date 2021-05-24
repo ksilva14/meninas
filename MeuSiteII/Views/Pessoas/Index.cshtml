@@ -15,6 +15,13 @@
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
+
+            <!-- SEXO NÃO EXISTE NO CÓDIGO ORIGINAL, COLOQUEI SEGUINDO O PADRÃO DOS CAMPOS -->
+            <th>
+                @Html.DisplayNameFor(model => model.Sexo)
+            </th>
+
+
             <th>
                 @Html.DisplayNameFor(model => model.DataNascimento)
             </th>
@@ -30,6 +37,13 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
+            
+            <!-- SEXO NÃO EXISTE NO CÓDIGO ORIGINAL, COLOQUEI SEGUINDO O PADRÃO DOS CAMPOS -->
+            <td>
+                @Html.DisplayFor(modelItem => item.Sexo)
+            </td>
+
+
             <td>
                 @* @Html.DisplayFor(modelItem => item.DataNascimento) *@
                 @(item.DataNascimento.ToString("dd/MM/yyyy"))
