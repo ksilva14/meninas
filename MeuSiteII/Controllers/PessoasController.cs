@@ -50,6 +50,13 @@ namespace MeuSiteII.Controllers
 
         // GET: Pessoas/Edit/5
         public IActionResult Edit(int id){
+            
+// TRECHO COPIADO DE CREATE (para permitir editar o campo sexo) / NÃO EXISTE NO CÓDIGO ORIGINAL ----
+            var sexoLista = new List<object>();
+            sexoLista.Add(new { Codigo=Sexo.Masculino, Descricao="Masculino" });
+            sexoLista.Add(new { Codigo=Sexo.Feminino, Descricao="Feminino" });
+            ViewBag.Sexo = new SelectList(sexoLista, "Codigo", "Descricao");
+//--------------------------------------------------------------------------------------------------
             Pessoa pessoa = _context.Pessoas.Find(id);
             return View(pessoa);
         }
