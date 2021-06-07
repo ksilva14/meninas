@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\meninas\\MeuSite\\MeuSite.csproj": {}
+    "C:\\meninas\\MeuSite(Vitinho)\\MeuSite.csproj": {}
   },
   "projects": {
-    "D:\\meninas\\MeuSite\\MeuSite.csproj": {
+    "C:\\meninas\\MeuSite(Vitinho)\\MeuSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\meninas\\MeuSite\\MeuSite.csproj",
+        "projectUniqueName": "C:\\meninas\\MeuSite(Vitinho)\\MeuSite.csproj",
         "projectName": "MeuSite",
-        "projectPath": "D:\\meninas\\MeuSite\\MeuSite.csproj",
-        "packagesPath": "C:\\Users\\Orthopride\\.nuget\\packages\\",
-        "outputPath": "D:\\meninas\\MeuSite\\obj\\",
+        "projectPath": "C:\\meninas\\MeuSite(Vitinho)\\MeuSite.csproj",
+        "packagesPath": "C:\\Users\\Karolinne Marques\\.nuget\\packages\\",
+        "outputPath": "C:\\meninas\\MeuSite(Vitinho)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Orthopride\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Karolinne Marques\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/orthopride/_packaging/orthopride/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {

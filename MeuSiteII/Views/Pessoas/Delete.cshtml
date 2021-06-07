@@ -1,12 +1,12 @@
 @model MeuSiteII.Models.Pessoa
 
 @{
-    ViewData["Title"] = "Deletar";
+    ViewData["Title"] = "Excluir";
 }
 
-<h1>Deletar</h1>
+<h1>Excluir</h1>
 
-<h3>Você tem certesa que quer apagar este registro?</h3>
+<h3>Você tem certesa que quer excluir este registro?</h3>
 <div>
     <h4>Pessoa</h4>
     <hr />
@@ -33,7 +33,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="PessoaId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <input type="submit" value="Excluir" class="btn btn-danger" /> |
         <a asp-action="Index">Voltar para a lista</a>
     </form>
 </div>
