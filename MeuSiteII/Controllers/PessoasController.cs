@@ -73,6 +73,12 @@ namespace MeuSiteII.Controllers
         }
 
         // GET: Pessoas/Delete/5
+        public IActionResult Delete(int id){
+            Pessoa pessoa = _context.Pessoas.Find(id);
+            return View(pessoa);
+        }
+
+        // POST: Pessoas/Delete/5
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id){
             Pessoa pessoa = _context.Pessoas.Find(id);
