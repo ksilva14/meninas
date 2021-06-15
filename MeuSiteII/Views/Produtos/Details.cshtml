@@ -1,0 +1,58 @@
+@model MeuSiteII.Models.Produto
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>Detalhes</h1>
+
+<div>
+    <h4>Produto</h4>
+    <hr />
+    <dl class="row">
+
+        <!-- Nome //-->
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+
+        <!-- Descricao //-->
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+
+        <!-- Quantidade Estoque //-->
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.QuantidadeEstoque)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.QuantidadeEstoque)
+        </dd>
+        
+        <!-- UrlImagem //-->
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UrlImagem)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UrlImagem)
+        </dd>
+
+        <!-- Preço //-->
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ProdutoId">Editar</a> |
+    <a asp-action="Index">Voltar para a lista</a>
+</div>
