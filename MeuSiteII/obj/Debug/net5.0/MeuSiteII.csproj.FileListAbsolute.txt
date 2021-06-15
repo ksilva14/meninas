@@ -9,7 +9,6 @@ C:\meninas\MeuSiteII\bin\Debug\net5.0\ref\MeuSiteII.dll
 C:\meninas\MeuSiteII\bin\Debug\net5.0\MeuSiteII.pdb
 C:\meninas\MeuSiteII\bin\Debug\net5.0\MeuSiteII.Views.dll
 C:\meninas\MeuSiteII\bin\Debug\net5.0\MeuSiteII.Views.pdb
-C:\meninas\MeuSiteII\obj\Debug\net5.0\MeuSiteII.csprojAssemblyReference.cache
 C:\meninas\MeuSiteII\obj\Debug\net5.0\MeuSiteII.GeneratedMSBuildEditorConfig.editorconfig
 C:\meninas\MeuSiteII\obj\Debug\net5.0\MeuSiteII.AssemblyInfoInputs.cache
 C:\meninas\MeuSiteII\obj\Debug\net5.0\MeuSiteII.AssemblyInfo.cs
@@ -76,3 +75,8 @@ C:\meninas\MeuSiteII\obj\Debug\net5.0\Razor\Views\Produtos\Delete.cshtml.g.cs
 C:\meninas\MeuSiteII\obj\Debug\net5.0\Razor\Views\Produtos\Details.cshtml.g.cs
 C:\meninas\MeuSiteII\obj\Debug\net5.0\Razor\Views\Produtos\Edit.cshtml.g.cs
 C:\meninas\MeuSiteII\obj\Debug\net5.0\Razor\Views\Produtos\Index.cshtml.g.cs
+C:\meninas\MeuSiteII\obj\Debug\net5.0\MeuSiteII.csproj.AssemblyReference.cache
+C:\meninas\MeuSiteII\obj\Debug\net5.0\Razor\Views\Profissoes\Create.cshtml.g.cs
+C:\meninas\MeuSiteII\obj\Debug\net5.0\Razor\Views\Profissoes\Delete.cshtml.g.cs
+C:\meninas\MeuSiteII\obj\Debug\net5.0\Razor\Views\Profissoes\Edit.cshtml.g.cs
+C:\meninas\MeuSiteII\obj\Debug\net5.0\Razor\Views\Profissoes\Index.cshtml.g.cs
